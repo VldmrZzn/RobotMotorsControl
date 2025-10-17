@@ -37,4 +37,4 @@ while True:
     elif command == "q":
         stop()
     elif comand == "e":
-	smoothly()
+	    smoothly()
