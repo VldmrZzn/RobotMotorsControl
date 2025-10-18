@@ -13,13 +13,16 @@ def turn_right():
 def stop():
     print("Робот остановился")
 
+def  smoothly():
+    print("Робот едет плавно")
+	
 print("Управление:")
 print("w-вперёд")
 print("s-назад")
 print("a-налево")
 print("d-направо")
 print("q-стоп")
-
+print("e-робот едет плавно")
 while True:
     command = input("Введите команду: ")
 
@@ -33,4 +36,6 @@ while True:
         turn_right()
     elif command == "q":
         stop()
+    elif comand == "e":
+	    smoothly()
     else: print("Вы ввели неправильную команду")
