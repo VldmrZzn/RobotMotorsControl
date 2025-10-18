@@ -33,3 +33,4 @@ while True:
         turn_right()
     elif command == "q":
         stop()
+    else: print("Вы ввели неправильную команду")
