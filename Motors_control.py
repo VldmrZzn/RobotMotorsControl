@@ -38,3 +38,4 @@ while True:
         stop()
     elif comand == "e":
 	    smoothly()
+    else: print("Вы ввели неправильную команду")
